@@ -22,7 +22,7 @@ const Nav = () => {
 
   return (
     <div className='w-full h-16 md:mt-2 absolute top-0 left-0 flex justify-center items-center'>
-      <div className='w-full py-4 px-8 md:w-[90%] rounded-xl h-auto md:py-2 sm:px-4 absolute bg-[#ADF802]/80 z-10 flex justify-between items-center'>
+      <div className='w-full py-4 px-8 md:w-[90%] md:rounded-xl h-auto md:py-2 sm:px-4 absolute bg-[#ADF802]/80 z-10 flex justify-between items-center'>
         <div>
           {/* <img src={fiLogo} alt="/" /> */}
           <h2 className='flogo'>FAAST</h2>
