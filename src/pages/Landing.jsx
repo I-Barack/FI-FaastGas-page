@@ -4,8 +4,9 @@ import Home from '../components/Home';
 
 
 const Landing = () => {
+  
   return (
-    <div className='relative max-w-[1240px]'>
+    <div className='relative'>
       <Home />
       <Nav />
     </div>

@@ -6,7 +6,7 @@ import Landing from "./pages/Landing";
 
 function App() {
   return (
-    <div className="max-w-[1240px] ">
+    <div className="">
       <BrowserRouter>
         <Routes>
           <Route index element={<Landing />} />

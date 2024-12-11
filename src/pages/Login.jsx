@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import backgroundImg from '../assets/backgroundImg.png';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+
+  const navigate = useNavigate();
+  
   return (
     <div className='w-screen h-screen relative flex justify-center items-center'>
       <img className='absolute top-0 left-0 w-full h-full object-cover opacity-10' src={backgroundImg} alt="/" />
@@ -20,7 +24,7 @@ const Login = () => {
         </div>
         <div className='w-full h-full flex flex-col justify-center items-center text-center rounded-b-sm sm:rounded-r-md sm:px-2 bg-[#FF6D00] text-white'>
           <h2>New Here?</h2>
-          <button className='btn-orange my-4'>Sign Up</button>
+          <button onClick={() => {navigate("/signup")}} className='btn-orange my-4'>Sign Up</button>
         </div>
       </div>
     </div>
